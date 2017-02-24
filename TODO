@@ -1,0 +1,8 @@
+TODO List
+- device connection stability
+- stdout to log file
+- daemon mode
+- better html parse
+- debian/rpm packaging (obs, lp, copr)
+- improve verifydata
+

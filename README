@@ -1,4 +1,24 @@
-MIT License
+Introduction
+------------
+A simple application to get data from 365 B35 and then send to Lewei50 platform for data monitoring and tracking from web page and wechat. 
+
+Build
+-----
+Run following commands when you get the source and in the source dir. 
+    ./autogen.sh
+    ./configure
+    make
+
+Run
+----
+    ./Lewei365B35
+
+Note
+-------
+Please use latest OS on beaglebone or rasberry pi, E.g. kernel version >= 4.4, so that you can see /dev/ttyUSB0 when B35 is connected.
+
+License
+-------
 
 Copyright (c) 2017 Joey Zheng <joey@jzheng.org>
 
@@ -19,3 +39,4 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+

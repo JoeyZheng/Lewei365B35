@@ -1,2 +1,49 @@
 # Lewei365B35
-A simple application to get data from 365 B35 and then send to Lewei50 platform for data monitoring and tracking from web page and wechat.
+[![Build Status](https://travis-ci.org/JoeyZheng/Lewei365B35.svg?branch=master)](https://travis-ci.org/JoeyZheng/Lewei365B35)
+
+Introduction
+------------
+A simple application to get data from 365 B35 and then send to Lewei50 platform for data monitoring and tracking from web page and wechat. 
+
+Build
+-----
+Run following commands when you get the source and in the source dir. 
+```bash
+    ./autogen.sh
+    ./configure
+    make
+```
+
+Run
+----
+```bash
+./Lewei365B35
+```
+
+Note
+-------
+Please use latest OS on beaglebone or rasberry pi, E.g. kernel version >= 4.4, so that you can see /dev/ttyUSB0 when B35 is connected.
+
+License
+-------
+
+Copyright (c) 2017 Joey Zheng <joey@jzheng.org>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
