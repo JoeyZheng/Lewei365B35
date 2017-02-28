@@ -1,0 +1,25 @@
+os: linux
+dist: xenial
+language: c
+cache: apt
+
+branches:
+  only:
+    - 'master'
+
+before_install:
+  - sudo apt-get -qq update
+  - sudo apt-get -qq install autoconf automake libtool
+
+script:
+  - ./autogen.sh --verbose
+  - ./configure
+  - make
+
+deploy:
+    provider: releases
+    file: Lewei365B35
+    skip_cleanup: true
+    overwrite: true
+    on:
+        tags: true
